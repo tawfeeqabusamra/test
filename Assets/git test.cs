@@ -17,6 +17,7 @@ public class gittest : MonoBehaviour
                 break;
                 
             }
+            A++;
         }
     }
 
