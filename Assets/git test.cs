@@ -12,7 +12,8 @@ public class gittest : MonoBehaviour
             int ran = Random.Range(1,21);
             switch(ran){
                 case 5 : continue;
-                case 15 : break;
+                case 15 : Debug.Log(ran);
+                break;
                 default : Debug.Log(ran);
                 break;
                 
