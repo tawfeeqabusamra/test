@@ -13,6 +13,7 @@ public class ass2 : MonoBehaviour
        String [] arr = {"Cat", "Dog", "Car", "Pizza", "Hat", "Fish", "Tree", "Monkey", "Ball", "Bird"} ;
        String [] sentence = new string [7];
        int i =1 ;
+       int z=0;
        string targetWord;
        int ran ;
        while( true ){
@@ -24,7 +25,7 @@ public class ass2 : MonoBehaviour
         
         bool wordExists = sentence.Contains(targetWord);
         if(!wordExists){
-            int z=0;
+            
             sentence[z]= targetWord;
             i++;
             z++;
