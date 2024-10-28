@@ -13,17 +13,21 @@ public class ass2 : MonoBehaviour
        String [] arr = {"Cat", "Dog", "Car", "Pizza", "Hat", "Fish", "Tree", "Monkey", "Ball", "Bird"} ;
        String [] sentence = new string [7];
        int i =1 ;
+       string targetWord;
+       int ran ;
        while( true ){
-        int ran = Random.Range(0,10);
+        ran = Random.Range(0,10);
         // string testWord = arr[ran];
         // String [] test = new string [7];
         // test.Append(testWord);
-        string targetWord = arr[ran];
+        targetWord = arr[ran];
         
         bool wordExists = sentence.Contains(targetWord);
         if(!wordExists){
-            sentence.Append(targetWord);
+            int z=0;
+            sentence[z]= targetWord;
             i++;
+            z++;
         }
 
         
