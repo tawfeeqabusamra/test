@@ -32,7 +32,7 @@ public class ass2 : MonoBehaviour
         }
 
         
-        if(i==7) {
+        if(i==8) {
             break;
         }
        }
