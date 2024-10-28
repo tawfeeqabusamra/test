@@ -8,7 +8,7 @@ public class gittest : MonoBehaviour
     void Start()
     {
         int A = 0;
-        while(A<20){
+        while(true){
             int ran = Random.Range(1,21);
 
             if (ran == 15){
