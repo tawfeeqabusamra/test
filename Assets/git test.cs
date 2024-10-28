@@ -18,6 +18,9 @@ public class gittest : MonoBehaviour
                 break;
                 
             }
+            if (ran == 15){
+                break;
+            }
             A++;
         }
     }
