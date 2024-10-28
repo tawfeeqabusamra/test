@@ -10,17 +10,18 @@ public class gittest : MonoBehaviour
         int A = 0;
         while(A<20){
             int ran = Random.Range(1,21);
-            switch(ran){
-                case 5 : continue;
-                case 15 : Debug.Log(ran);
-                break;
-                default : Debug.Log(ran);
-                break;
-                
-            }
+
             if (ran == 15){
+                Debug.Log(ran);
                 break;
             }
+            else if (ran == 5){
+                continue;
+            }
+            else{
+                Debug.Log(ran);
+            }
+            
             A++;
         }
     }
