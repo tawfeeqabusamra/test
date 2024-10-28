@@ -29,8 +29,8 @@ public class ass2 : MonoBehaviour
             break;
         }
        }
-          foreach(string s in sentence){
-            Debug.Log(s);
-          }
+       int z =0;
+           string fullSentence = string.Join(" ", words);
+
     }  
 }
