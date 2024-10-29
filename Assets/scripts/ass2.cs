@@ -30,7 +30,7 @@ public class ass2 : MonoBehaviour
         }
        }
            string fullSentence = string.Join(" ", sentence);
-           Debug.Log (fullSentence);
+           Debug.Log(fullSentence);
 
     }  
 }
